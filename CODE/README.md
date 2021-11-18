@@ -4,9 +4,9 @@ we will build a Deep Neural Network model to predict Bitcoin price based on hist
 ![image](https://user-images.githubusercontent.com/69081864/142363040-045a0be7-68a8-443a-8c40-5d50a2ae4704.png)
 
 # MODELS
-1.All models do not allow for operating on sequence data. Fortunately, we can use a special class of Neural Network models known as Recurrent Neural Networks (RNNs) just for this purpose. 
-2.RNNs allow using the output from the model as a new input for the same model. The process can be repeated indefinitely.
-3.One serious limitation of RNNs is the inability of capturing long-term dependencies in a sequence. One way to handle the situation is by using an Long short-term memory (LSTM) variant of RNN.
+*.All models do not allow for operating on sequence data. Fortunately, we can use a special class of Neural Network models known as Recurrent Neural Networks (RNNs) just for this purpose. 
+*2.RNNs allow using the output from the model as a new input for the same model. The process can be repeated indefinitely.
+* 3.One serious limitation of RNNs is the inability of capturing long-term dependencies in a sequence. One way to handle the situation is by using an Long short-term memory (LSTM) variant of RNN.
 4.The default LSTM behavior is remembering information for prolonged periods of time.
 
 # Conclusion 
