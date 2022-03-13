@@ -1,7 +1,9 @@
 # PRICE-PREDICTION-USING-LSTM
 Predict Bitcoin price using LSTM Deep Neural Network in TensorFlow 2 we will build a Deep Neural Network model to predict Bitcoin price based on historical data. Our dataset comes from Yahoo! finance and covers all available data on Bitcoin-USD price. We will represent the Bitcoin-USD price for the last 9 years. Were interested in predicting the closing price for the future.
 
-<a href="https://icons8.com/icon/ovHld7NfgG9g/bitcoin">Bitcoin icon by Icons8</a>
+
+![icons8-bitcoin](https://user-images.githubusercontent.com/69081864/158068828-90f950a6-b4ca-4af6-b796-d9152142ce16.gif)
+
 
 # MODELS
 * All models do not allow for operating on sequence data. Fortunately, we can use a special class of Neural Network models known as Recurrent Neural Networks (RNNs) just for this purpose.
